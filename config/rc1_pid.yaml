@@ -1,0 +1,36 @@
+# RC-1 / Seccion S003 / valores documentados con los archivos disponibles
+# ATENCION: registros de varias etapas y reajustes; no son una unica serie fija.
+ros_domain_id_real: 20
+odom_topic_real: /odom_raw
+simulador:
+  recta_1D: {kp: 3.0, ki: 0.5, kd: 4.0}  # referencia del codigo/configuracion
+  giro_2c: {kp_yaw: 10.0, ki_yaw: 0.0, kd_yaw: 1.2}  # mejor 2c segun resultados Parte C
+  cuadrado_3B: {kp: 3.0, ki: 0.0, kd: 4.0}
+robot_real:
+  E5_giro:
+    kp_yaw: 3.0
+    ki_yaw: 0.0
+    kd_yaw: 0.4
+    objetivo_odometrico_experimental_deg: 108
+    giro_fisico_medido_deg: 87
+  E6_recta:
+    experimento: recta
+    kp: 3.0
+    ki: 0.5
+    kd: 4.0
+    linear_speed_m_s: 0.09
+    line_offset_m: 0.10
+    bias_w_rad_s: 0.0
+    max_angular_rad_s: 1.0
+    desvios_reales_cm: [9, 5, 6]
+  E7_cuadrado_3B:
+    kp: 3.0
+    ki: 0.0
+    kd: 4.0
+    kp_yaw: 3.0
+    ki_yaw: 0.0
+    kd_yaw: 0.4
+    max_angular_rad_s: 2.0
+    linear_speed_m_s_por_corrida: {'01': 0.10, '04': 0.09, '08': 0.09}
+    cierres_fisicos_cm: {'01': 25, '04': 12, '08': 15}
+    nota: 'Corridas seleccionadas y no consecutivas; documentar calibraciones intermedias'

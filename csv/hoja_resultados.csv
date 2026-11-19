@@ -1,0 +1,27 @@
+﻿prueba,planta,noise,kp,ki,kd,kp_yaw,ki_yaw,kd_yaw,prediccion,cierre_odom_cm,cierre_real_cm,yaw_acum_deg,notas
+3A_low_r1,simulador,low,3,0,4,3,0,0.4,Cierre real 80 cm (predicción previa de Parte D),17.7,33.75,363.83,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3A_low_r2,simulador,low,3,0,4,3,0,0.4,Cierre real 80 cm (predicción previa de Parte D),37.73,44.9,329.4,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3A_low_r3,simulador,low,3,0,4,3,0,0.4,Cierre real 80 cm (predicción previa de Parte D),25.63,52.45,340.35,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3A_medium_r1,simulador,medium,3,0,4,3,0,0.4,Cierre real 80 cm (predicción previa de Parte D),54.75,61.12,342.06,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3B_low_r1,simulador,low,3,0,4,3,0,0.4,Cierre real 35 cm (predicción previa de Parte D),0.37,66.82,376.3,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3B_low_r2,simulador,low,3,0,4,3,0,0.4,Cierre real 35 cm (predicción previa de Parte D),1.99,41.04,342.75,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3B_low_r3,simulador,low,3,0,4,3,0,0.4,Cierre real 35 cm (predicción previa de Parte D),0.96,20.79,367.72,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3B_medium_r1,simulador,medium,3,0,4,3,0,0.4,Cierre real 35 cm (predicción previa de Parte D),5.56,9.77,351.65,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3C_low_r1,simulador,low,3,0.5,4,3,0,0.4,Cierre real 20 cm (predicción previa de Parte D),0.86,35.36,373.19,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3C_low_r2,simulador,low,3,0.5,4,3,0,0.4,Cierre real 20 cm (predicción previa de Parte D),2.26,52.15,371.84,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3C_low_r3,simulador,low,3,0.5,4,3,0,0.4,Cierre real 20 cm (predicción previa de Parte D),0.4,27.65,353.28,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+3C_medium_r1,simulador,medium,3,0.5,4,3,0,0.4,Cierre real 20 cm (predicción previa de Parte D),0.98,5.5,356.3,Resultado del archivo resultados_parte_d.csv; medicion REAL corresponde a /sim/pose
+2a,simulador,,,,,1.0,0.0,0.0,Consultar predicciones originales Parte C,,,,"Giro simulado: error final 1.42°, sobreimpulso 0.00%, asentamiento 3.711 s"
+2b,simulador,,,,,10.0,0.0,0.0,Consultar predicciones originales Parte C,,,,"Giro simulado: error final 0.02°, sobreimpulso 11.43%, asentamiento 1.610 s"
+2c,simulador,,,,,10.0,0.0,1.2,Consultar predicciones originales Parte C,,,,"Giro simulado: error final 0.18°, sobreimpulso 0.00%, asentamiento 1.066 s"
+2d,simulador,,,,,3.0,0.0,0.0,Consultar predicciones originales Parte C,,,,"Giro simulado: error final 0.73°, sobreimpulso 0.00%, asentamiento 1.300 s"
+2e,simulador,,,,,3.0,0.0,0.4,Consultar predicciones originales Parte C,,,,"Giro simulado: error final 0.24°, sobreimpulso 15.83%, asentamiento 2.599 s"
+2f,simulador,,,,,3.0,0.1,0.4,Consultar predicciones originales Parte C,,,,"Giro simulado: error final 0.06°, sobreimpulso 0.07%, asentamiento 1.341 s"
+3A,robot_real,piso,,,,,,,No hay prediccion previa original guardada para este ensayo real,29.36,37,,/odom_raw; v=0.1 m/s; cierre 3A aprox. 37 cm. Corridas 3B seleccionadas no consecutivas; hubo re-ajustes
+3B-01,robot_real,piso,3,0,4,3,0,0.4,No hay prediccion previa original guardada para este ensayo real,6.26,25,,/odom_raw; v=0.1 m/s; cierre 3A aprox. 37 cm. Corridas 3B seleccionadas no consecutivas; hubo re-ajustes
+3B-04,robot_real,piso,3,0,4,3,0,0.4,No hay prediccion previa original guardada para este ensayo real,10.53,12,,/odom_raw; v=0.09 m/s; cierre 3A aprox. 37 cm. Corridas 3B seleccionadas no consecutivas; hubo re-ajustes
+3B-08,robot_real,piso,3,0,4,3,0,0.4,No hay prediccion previa original guardada para este ensayo real,10.3,15,,/odom_raw; v=0.09 m/s; cierre 3A aprox. 37 cm. Corridas 3B seleccionadas no consecutivas; hubo re-ajustes
+E6-01,robot_real,piso,3,0.5,4,,,,Inicio 10 cm desplazado de la linea (consigna),,9,,DESVIO LATERAL REAL=9 cm; e_line_odom_antes_FIN=12.04 cm; no confundir ambas medidas; fin t=27.733
+E6-02,robot_real,piso,3,0.5,4,,,,Inicio 10 cm desplazado de la linea (consigna),,5,,DESVIO LATERAL REAL=5 cm; e_line_odom_antes_FIN=14.82 cm; no confundir ambas medidas; fin t=26.300
+E6-03,robot_real,piso,3,0.5,4,,,,Inicio 10 cm desplazado de la linea (consigna),,6,,DESVIO LATERAL REAL=6 cm; e_line_odom_antes_FIN=10.05 cm; no confundir ambas medidas; fin t=28.667
+E5-giro108,robot_real,piso,,,,3,0,0.4,Objetivo fisico: 90 grados,,,87,Giro fisico 87 grados medido con transportador; objetivo odometrico experimental 108°
